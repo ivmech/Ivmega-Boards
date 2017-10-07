@@ -19,7 +19,7 @@
           },
           "url": "https://github.com/ivmech/Ivmega-Boards/releases/download/release/ivmega-1.1.0.zip",
           "archiveFileName": "ivmega-1.1.0.zip",
-          "checksum": "SHA-256:51dd9623de39925d1bc2d17df95336473dbf98bc6abfdc6db998b8e10d9bca65",
+          "checksum": "SHA-256:a3c777e8f3b26d4fb24b461ba17637b8624ba6b042e086145d354e1f049d6382",
           "size": "1528",
           "boards": [
             {"name": "IVmega168/168p"},
