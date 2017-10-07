@@ -1,0 +1,34 @@
+{
+  "packages": [
+    {
+      "name": "ivmega",
+      "maintainer": "Ivmech Mechatronics",
+      "websiteURL": "http://www.ivmech.com",
+      "email": "cnr437@gmail.com",
+      "help": {
+        "online": "https://github.com/ivmech"
+       },
+      "platforms": [
+        {
+          "name": "Ivmech Boards",
+          "architecture": "avr",
+          "version": "1.0.6",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/ivmech"
+          },
+          "url": "http://ivmech.com/ivmega-1.0.6.zip",
+          "archiveFileName": "ivmega-1.0.6.zip",
+          "checksum": "SHA-256:3b3a5dc34c74f4c0443984ebfd5e659caf6b261499986b3e939e8dc205741b48",
+          "size": "1528",
+          "boards": [
+            {"name": "ATmega168/168p"},
+            {"name": "ATmega328/328p"},
+            {"name": "ATmega8"}
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}

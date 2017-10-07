@@ -1,0 +1,190 @@
+menu.cpu=Processor
+menu.clock=Clock
+
+
+#
+# ATmega168/168p
+#
+
+ivmega168.name=ATmega168/168p
+
+ivmega168.bootloader.tool=arduino:avrdude
+ivmega168.bootloader.unlock_bits=0x3f
+ivmega168.bootloader.lock_bits=0x0f
+
+ivmega168.upload.tool=arduino:avrdude
+ivmega168.upload.maximum_size=16384
+ivmega168.upload.maximum_data_size=1024
+ivmega168.upload.speed=19200
+ivmega168.build.variant=arduino:eightanaloginputs
+ivmega168.build.core=arduino:arduino
+ivmega168.build.board=atmega168
+ivmega168.program.extra_params=-B 10
+
+ivmega168.menu.clock.internal1=1 MHz (internal)
+ivmega168.menu.clock.internal1.bootloader.low_fuses=0x62
+ivmega168.menu.clock.internal1.bootloader.high_fuses=0xdd
+ivmega168.menu.clock.internal1.bootloader.extended_fuses=0x01
+ivmega168.menu.clock.internal1.build.f_cpu=1000000L
+
+ivmega168.menu.clock.internal8=8 MHz (internal)
+ivmega168.menu.clock.internal8.bootloader.low_fuses=0xe2
+ivmega168.menu.clock.internal8.bootloader.high_fuses=0xdd
+ivmega168.menu.clock.internal8.bootloader.extended_fuses=0x01
+ivmega168.menu.clock.internal8.build.f_cpu=8000000L
+
+ivmega168.menu.clock.external8=8 MHz (external)
+ivmega168.menu.clock.external8.bootloader.low_fuses=0xff
+ivmega168.menu.clock.external8.bootloader.high_fuses=0xdd
+ivmega168.menu.clock.external8.bootloader.extended_fuses=0x01
+ivmega168.menu.clock.external8.build.f_cpu=8000000L
+
+ivmega168.menu.clock.external12=12 MHz (external)
+ivmega168.menu.clock.external12.bootloader.low_fuses=0xff
+ivmega168.menu.clock.external12.bootloader.high_fuses=0xdd
+ivmega168.menu.clock.external12.bootloader.extended_fuses=0x01
+ivmega168.menu.clock.external12.build.f_cpu=12000000L
+
+ivmega168.menu.clock.external16=16 MHz (external)
+ivmega168.menu.clock.external16.bootloader.low_fuses=0xff
+ivmega168.menu.clock.external16.bootloader.high_fuses=0xdd
+ivmega168.menu.clock.external16.bootloader.extended_fuses=0x01
+ivmega168.menu.clock.external16.build.f_cpu=16000000L
+
+ivmega168.menu.clock.external20=20 MHz (external)
+ivmega168.menu.clock.external20.bootloader.low_fuses=0xff
+ivmega168.menu.clock.external20.bootloader.high_fuses=0xdd
+ivmega168.menu.clock.external20.bootloader.extended_fuses=0x00
+ivmega168.menu.clock.external20.build.f_cpu=20000000L
+
+# Signature: ATmega168
+# Specs: http://www.atmel.com/devices/ATMEGA168.aspx
+ivmega168.menu.cpu.ivmega168=ATmega168
+ivmega168.menu.cpu.ivmega168.build.board=atmega168
+ivmega168.menu.cpu.ivmega168.build.mcu=atmega168
+
+# Signature: ATmega168p
+# Specs: http://www.atmel.com/devices/ATMEGA168P.aspx
+ivmega168.menu.cpu.ivmega168p=ATmega168p
+ivmega168.menu.cpu.ivmega168p.build.board=atmega168p
+ivmega168.menu.cpu.ivmega168p.build.mcu=atmega168p
+
+
+#
+# ATmega328/328p
+#
+
+ivmega328.name=ATmega328/328p
+
+ivmega328.bootloader.tool=arduino:avrdude
+ivmega328.bootloader.unlock_bits=0x3f
+ivmega328.bootloader.lock_bits=0x0f
+
+ivmega328.upload.tool=arduino:avrdude
+ivmega328.upload.maximum_size=32768
+ivmega328.upload.maximum_data_size=2048
+ivmega328.upload.speed=19200
+ivmega328.build.variant=arduino:eightanaloginputs
+ivmega328.build.core=arduino:arduino
+ivmega328.build.board=atmega328
+ivmega328.program.extra_params=-B 10
+
+ivmega328.menu.clock.internal1=1 MHz (internal)
+ivmega328.menu.clock.internal1.bootloader.low_fuses=0x62
+ivmega328.menu.clock.internal1.bootloader.high_fuses=0xdb
+ivmega328.menu.clock.internal1.bootloader.extended_fuses=0xff
+ivmega328.menu.clock.internal1.build.f_cpu=1000000L
+
+ivmega328.menu.clock.internal8=8 MHz (internal)
+ivmega328.menu.clock.internal8.bootloader.low_fuses=0xe2
+ivmega328.menu.clock.internal8.bootloader.high_fuses=0xdb
+ivmega328.menu.clock.internal8.bootloader.extended_fuses=0xff
+ivmega328.menu.clock.internal8.build.f_cpu=8000000L
+
+ivmega328.menu.clock.external8=8 MHz (external)
+ivmega328.menu.clock.external8.bootloader.low_fuses=0xff
+ivmega328.menu.clock.external8.bootloader.high_fuses=0xdb
+ivmega328.menu.clock.external8.bootloader.extended_fuses=0xff
+ivmega328.menu.clock.external8.build.f_cpu=8000000L
+
+ivmega328.menu.clock.external12=12 MHz (external)
+ivmega328.menu.clock.external12.bootloader.low_fuses=0xff
+ivmega328.menu.clock.external12.bootloader.high_fuses=0xdb
+ivmega328.menu.clock.external12.bootloader.extended_fuses=0xff
+ivmega328.menu.clock.external12.build.f_cpu=12000000L
+
+ivmega328.menu.clock.external16=16 MHz (external)
+ivmega328.menu.clock.external16.bootloader.low_fuses=0xff
+ivmega328.menu.clock.external16.bootloader.high_fuses=0xdb
+ivmega328.menu.clock.external16.bootloader.extended_fuses=0xff
+ivmega328.menu.clock.external16.build.f_cpu=16000000L
+
+ivmega328.menu.clock.external20=20 MHz (external)
+ivmega328.menu.clock.external20.bootloader.low_fuses=0xff
+ivmega328.menu.clock.external20.bootloader.high_fuses=0xdb
+ivmega328.menu.clock.external20.bootloader.extended_fuses=0xff
+ivmega328.menu.clock.external20.build.f_cpu=20000000L
+
+# Signature: ATmega328
+# Specs: http://www.atmel.com/devices/ATMEGA328.aspx
+ivmega328.menu.cpu.ivmega328=ATmega328
+ivmega328.menu.cpu.ivmega328.build.board=atmega328
+ivmega328.menu.cpu.ivmega328.build.mcu=atmega328
+
+# Signature: ATmega328p
+# Specs: http://www.atmel.com/devices/ATMEGA328P.aspx
+ivmega328.menu.cpu.ivmega328p=ATmega328p
+ivmega328.menu.cpu.ivmega328p.build.board=atmega328p
+ivmega328.menu.cpu.ivmega328p.build.mcu=atmega328p
+
+
+#
+# ATmega8
+#
+
+ivmega8.name=ATmega8
+
+ivmega8.bootloader.tool=avrdude-noefuse
+ivmega8.bootloader.unlock_bits=0x3f
+ivmega8.bootloader.lock_bits=0x0f
+
+ivmega8.upload.tool=arduino:avrdude
+ivmega8.upload.maximum_size=8192
+ivmega8.upload.maximum_data_size=1024
+ivmega8.upload.speed=19200
+
+ivmega8.build.core=arduino:arduino
+ivmega8.build.variant=arduino:eightanaloginputs
+ivmega8.build.board=atmega8
+ivmega8.program.extra_params=-B 10
+
+ivmega8.menu.clock.internal1=1 MHz (internal)
+ivmega8.menu.clock.internal1.bootloader.low_fuses=0xa1
+ivmega8.menu.clock.internal1.bootloader.high_fuses=0xcd
+ivmega8.menu.clock.internal1.build.f_cpu=1000000L
+
+ivmega8.menu.clock.internal8=8 MHz (internal)
+ivmega8.menu.clock.internal8.bootloader.low_fuses=0xa4
+ivmega8.menu.clock.internal8.bootloader.high_fuses=0xcd
+ivmega8.menu.clock.internal8.build.f_cpu=8000000L
+
+ivmega8.menu.clock.external8=8 MHz (external)
+ivmega8.menu.clock.external8.bootloader.low_fuses=0xbf
+ivmega8.menu.clock.external8.bootloader.high_fuses=0xcd
+ivmega8.menu.clock.external8.build.f_cpu=8000000L
+
+ivmega8.menu.clock.external12=12 MHz (external)
+ivmega8.menu.clock.external12.bootloader.low_fuses=0xbf
+ivmega8.menu.clock.external12.bootloader.high_fuses=0xcd
+ivmega8.menu.clock.external12.build.f_cpu=12000000L
+
+ivmega8.menu.clock.external16=16 MHz (external)
+ivmega8.menu.clock.external16.bootloader.low_fuses=0xbf
+ivmega8.menu.clock.external16.bootloader.high_fuses=0xcd
+ivmega8.menu.clock.external16.build.f_cpu=16000000L
+
+# Signature: ATmega8
+# Specs: http://www.atmel.com/devices/ATMEGA8.aspx
+ivmega8.menu.cpu.ivmega8=ATmega8
+ivmega8.menu.cpu.ivmega8.build.board=atmega8
+ivmega8.menu.cpu.ivmega8.build.mcu=atmega8
