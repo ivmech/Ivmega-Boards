@@ -1,5 +1,6 @@
 name=Ivmech Boards
-version=1.0.7
+version=1.0.9
+
 tools.avrdude.path={runtime.tools.avrdude.path}
 tools.avrdude.erase.params.verbose=-v -v -v -v
 tools.avrdude.erase.params.quiet=-q -q

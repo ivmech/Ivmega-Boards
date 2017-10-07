@@ -12,19 +12,19 @@
         {
           "name": "Ivmech Boards",
           "architecture": "avr",
-          "version": "1.0.7",
+          "version": "1.1.0",
           "category": "Contributed",
           "help": {
             "online": "https://github.com/ivmech"
           },
-          "url": "https://github.com/ivmech/Ivmega-Boards/releases/download/release/ivmega-1.0.7.zip",
-          "archiveFileName": "ivmega-1.0.7.zip",
+          "url": "https://github.com/ivmech/Ivmega-Boards/releases/download/release/ivmega-1.1.0.zip",
+          "archiveFileName": "ivmega-1.1.0.zip",
           "checksum": "SHA-256:51dd9623de39925d1bc2d17df95336473dbf98bc6abfdc6db998b8e10d9bca65",
           "size": "1528",
           "boards": [
-            {"name": "ATmega168/168p"},
-            {"name": "ATmega328/328p"},
-            {"name": "ATmega8"}
+            {"name": "IVmega168/168p"},
+            {"name": "IVmega328/328p"},
+            {"name": "IVmega8"}
           ]
         }
       ],

@@ -1,12 +1,11 @@
 menu.cpu=Processor
 menu.clock=Clock
 
-
 #
-# ATmega168/168p
+# IVmega168/168p
 #
 
-ivmega168.name=ATmega168/168p
+ivmega168.name=IVmega168/168p
 
 ivmega168.bootloader.tool=arduino:avrdude
 ivmega168.bootloader.unlock_bits=0x3f
@@ -71,10 +70,10 @@ ivmega168.menu.cpu.ivmega168p.build.mcu=atmega168p
 
 
 #
-# ATmega328/328p
+# IVmega328/328p
 #
 
-ivmega328.name=ATmega328/328p
+ivmega328.name=IVmega328/328p
 
 ivmega328.bootloader.tool=arduino:avrdude
 ivmega328.bootloader.unlock_bits=0x3f
@@ -139,10 +138,10 @@ ivmega328.menu.cpu.ivmega328p.build.mcu=atmega328p
 
 
 #
-# ATmega8
+# IVmega8
 #
 
-ivmega8.name=ATmega8
+ivmega8.name=IVmega8
 
 ivmega8.bootloader.tool=avrdude-noefuse
 ivmega8.bootloader.unlock_bits=0x3f
